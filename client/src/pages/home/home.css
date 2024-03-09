@@ -1,0 +1,40 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px; /*for a center smaller box*/
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*to send the two buttons to the other end*/
+}
+
+.logo{
+    font-weight: 500;
+}
+
+.navButton{
+    margin-left: 20px; /*to add some space between the buttons*/
+    border: none;
+    padding: 5px 10px; /*5 for b-t and 10 for l-r*/
+    cursor: pointer;
+    color: #003580;
+}
+
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.homeTitle{
+    width: 1024px;
+    font-size: 20px;
+}
